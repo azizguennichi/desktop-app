@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./materialize.min.css">
+  </head>
+  <body>
+    <div class="container drop-page">
+      <div class="row">
+        <h2>Welcome to Aziz File Reader v1</h2>
+        <input type="file"name="dragInput" class="drag-input">
+        <div class="row center">
+          <h3 class="drag-text">Drag Files</h3>
+        </div>
+      </div>
+    </div>
+     
+
+    <script defer src="renderer.js"></script>
+  </body>
+</html>

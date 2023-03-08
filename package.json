@@ -1,0 +1,26 @@
+{
+  "name": "app-desctop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "aziz-guennichi",
+  "license": "ISC",
+  "dependencies": {
+    "@pdftron/webviewer": "^8.12.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.5",
+    "@electron-forge/maker-deb": "^6.0.5",
+    "@electron-forge/maker-rpm": "^6.0.5",
+    "@electron-forge/maker-squirrel": "^6.0.5",
+    "@electron-forge/maker-zip": "^6.0.5",
+    "electron": "^23.1.3"
+  }
+}
